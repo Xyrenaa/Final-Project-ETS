@@ -1,94 +1,132 @@
----KEBAB & BURGER 74---
+----KEBAB & BURGER 74----
 
 Menu Utama
+ 
 1. Kasir
 2. Admin
 3. Owner
 4. Exit
+ 
 Pilih Menu = 1
 
 -----------------------------
 
-Menu Kasir
+Menu Yang Teresdia
+ 
 1. Kebab
 2. Burger
 3. Crepes
 4. Exit
+ 
 Pilih = 1
 
 -----------------------------
 
-KEBAB
-1. Kebab Mini [8000]
-2. Kebab Sedang  [10000]
-3. Kebab Jumbo   [12000]
+----KEBAB-----
+ 
+1. Kebab Mini    [Rp.8000]
+2. Kebab Sedang  [Rp.10000]
+3. Kebab Jumbo   [Rp.12000]
 4. Selesai
+ 
 Pilih Ukuran = 3
-
------------------------------
+ 
 Kebab Jumbo
-Jumlah  = 2
-Total = 24000
-Grand Total = 24000
-
-KEBAB
-1. Kebab Mini [8000]
-2. Kebab Sedang  [10000]
-3. Kebab Jumbo   [12000]
-4. Selesai
-Pilih Ukuran = 4
-
------------------------------
-Kembali
-
-Menu Kasir
-1. Kebab
-2. Burger
-3. Crepes
-4. Exit
-Pilih = 2
-
------------------------------
-
-BURGER
-1. Burger Sapi   [13000]
-2. Burger Patty  [10000]
-3. Burger Ayam   [10000]
-4. Selesai
-Pilih Toping = 1
-
------------------------------
-Burger Sapi
 Jumlah  = 3
-Total = 39000
-Grand Total = 63000
+Total       = Rp.36000
+Grand Total = Rp.36000
 
-BURGER
-1. Burger Sapi   [13000]
-2. Burger Patty  [10000]
-3. Burger Ayam   [10000]
+----KEBAB-----
+ 
+1. Kebab Mini    [Rp.8000]
+2. Kebab Sedang  [Rp.10000]
+3. Kebab Jumbo   [Rp.12000]
 4. Selesai
-Pilih Toping = 4
-
+ 
+Pilih Ukuran = 4
+ 
+ Kembali
+ 
+ -----------------------------
+ 
+ Menu Yang Teresdia
+  
+  1. Kebab
+  2. Burger
+  3. Crepes
+  4. Exit
+   
+   Pilih = 2
+   
 -----------------------------
+
+----BURGER----
+ 
+1. Burger Sapi   [Rp.13000]
+2. Burger Patty  [Rp.10000]
+3. Burger Ayam   [Rp.10000]
+4. Selesai
+ 
+Pilih Toping = 3
+
+ 
+Burger Ayam
+Jumlah  = 3
+Total       = Rp.30000
+Grand Total = Rp.66000
+
+----BURGER----
+ 
+1. Burger Sapi   [Rp.13000]
+2. Burger Patty  [Rp.10000]
+3. Burger Ayam   [Rp.10000]
+4. Selesai
+ 
+Pilih Toping = 4
+ 
 Kembali
 
-Menu Kasir
+-----------------------------
+
+Menu Yang Teresdia
+ 
 1. Kebab
 2. Burger
 3. Crepes
 4. Exit
+ 
 Pilih = 4
 
 -----------------------------
----KEBAB & BURGER 74---
+----KEBAB & BURGER 74----
 
 Menu Utama
+ 
 1. Kasir
 2. Admin
 3. Owner
 4. Exit
+ 
+Pilih Menu = 3
+
+-----------------------------
+ 
+Menu Owner
+Total Semua Pemasukan Rp.66000
+
+-----------------------------
+ 
+----KEBAB & BURGER 74----
+
+Menu Utama
+ 
+1. Kasir
+2. Admin
+3. Owner
+4. Exit
+ 
 Pilih Menu = 4
 
 -----------------------------
+ 
 Terima Kasih Selamat Datang kembali
