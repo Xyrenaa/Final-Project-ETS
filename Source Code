@@ -1,4 +1,3 @@
-package perulangan;
 import java.util.Scanner;
 public class FinalProjcetETS {
     public static void main(String[] args) {
@@ -11,8 +10,9 @@ public class FinalProjcetETS {
         int hargacrepesmatcha= 7000, hargacrepesspecial= 10000;
         do{
             // gunakan do while untuk mengulangi program
-            System.out.println("---KEBAB & BURGER 74---");
+            System.out.println("----KEBAB & BURGER 74----");
             System.out.println("\nMenu Utama");
+            System.out.println(" ");
             System.out.println("1. Kasir");
             // pilih barang, input jumlah barang, tampilkan total dan grand total 
             System.out.println("2. Admin");
@@ -21,61 +21,70 @@ public class FinalProjcetETS {
             // melihat total semua transaksi penjualan
             System.out.println("4. Exit");
             // keluar program
+            System.out.println(" ");
             System.out.print("Pilih Menu = ");
             menuUtama = sc.nextInt();
             System.out.println("\n-----------------------------");
             switch(menuUtama){
                 case 1:
                     do{
-            System.out.println("\nMenu Kasir");
-            System.out.println("1. Kebab");
-            System.out.println("2. Burger");
-            System.out.println("3. Crepes");
-            System.out.println("4. Exit");
-            System.out.print("Pilih = "); 
-            pilih1= sc.nextInt();
-            System.out.println("\n-----------------------------");
-            switch(pilih1){
+                    System.out.println("\nMenu Yang Teresdia");
+                    System.out.println(" ");
+                    System.out.println("1. Kebab");
+                    System.out.println("2. Burger");
+                    System.out.println("3. Crepes");
+                    System.out.println("4. Exit");
+                    System.out.println(" ");
+                    System.out.print("Pilih = "); 
+                    pilih1= sc.nextInt();
+                    System.out.println("\n-----------------------------");
+                    switch(pilih1){
                     case 1:
                         do{
-                        System.out.println("\nKEBAB");
-                        System.out.println("1. Kebab Mini [" +hargakebabmini + "]");
-                        System.out.println("2. Kebab Sedang  [" +hargakebabsedang + "]");
-                        System.out.println("3. Kebab Jumbo   [" +hargakebabjumbo + "]");
+                        System.out.println("\n----KEBAB-----");
+                        System.out.println(" ");
+                        System.out.println("1. Kebab Mini    [Rp." +hargakebabmini + "]");
+                        System.out.println("2. Kebab Sedang  [Rp." +hargakebabsedang + "]");
+                        System.out.println("3. Kebab Jumbo   [Rp." +hargakebabjumbo + "]");
                         System.out.println("4. Selesai");
+                        System.out.println(" ");
                         System.out.print("Pilih Ukuran = ");
                         pilih2=sc.nextInt();
-                        System.out.println("\n-----------------------------");
                         switch(pilih2){
                         case 1:
+                            System.out.println(" ");
                             System.out.println("Kebab Mini");
                             System.out.print("Jumlah = ");
                             jumlah=sc.nextInt();
                             total=jumlah*hargakebabmini;
                             grandTotal = grandTotal+total;
-                            System.out.println("Total = "+total);
-                            System.out.println("Grand Total = "+grandTotal);
+                            System.out.println("Total       = Rp."+total);
+                            System.out.println("Grand Total = Rp."+grandTotal);
                             break;
                         case 2:
+                            System.out.println(" ");
                             System.out.println("Kebab Sedang");
                             System.out.print("Jumlah = ");
                             jumlah=sc.nextInt();
                             total=jumlah*hargakebabsedang;
                             grandTotal = grandTotal+total;
-                            System.out.println("Total = "+total);
-                            System.out.println("Grand Total = "+grandTotal);
+                            System.out.println("Total       = Rp."+total);
+                            System.out.println("Grand Total = Rp."+grandTotal);
                             break;
                         case 3:
+                            System.out.println(" ");
                             System.out.println("Kebab Jumbo");
                             System.out.print("Jumlah  = ");
                             jumlah=sc.nextInt();
                             total=jumlah*hargakebabjumbo;
                             grandTotal = grandTotal+total;
-                            System.out.println("Total = "+total);
-                            System.out.println("Grand Total = "+grandTotal);
+                            System.out.println("Total       = Rp."+total);
+                            System.out.println("Grand Total = Rp."+grandTotal);
                             break;
                         case 4:
+                            System.out.println(" ");
                             System.out.println("Kembali");
+                            System.out.println("\n-----------------------------");
                             break;
                         default:
                             System.out.println("Pilihan Tidak Tersedia!");
@@ -84,44 +93,50 @@ public class FinalProjcetETS {
                     break;
                     case 2:
                     do{
-                        System.out.println("\nBURGER");
-                        System.out.println("1. Burger Sapi   [" +hargaburgersapi + "]");
-                        System.out.println("2. Burger Patty  [" +hargaburgerpatty + "]");
-                        System.out.println("3. Burger Ayam   [" +hargaburgerayam + "]");
+                        System.out.println("\n----BURGER----");
+                        System.out.println(" ");
+                        System.out.println("1. Burger Sapi   [Rp." +hargaburgersapi + "]");
+                        System.out.println("2. Burger Patty  [Rp." +hargaburgerpatty + "]");
+                        System.out.println("3. Burger Ayam   [Rp." +hargaburgerayam + "]");
                         System.out.println("4. Selesai");
+                        System.out.println(" ");
                         System.out.print("Pilih Toping = ");
                         pilih2=sc.nextInt();
-                        System.out.println("\n-----------------------------");
                         switch(pilih2){
                         case 1:
+                            System.out.println(" ");
                             System.out.println("Burger Sapi");
                             System.out.print("Jumlah  = ");
                             jumlah=sc.nextInt();
                             total=jumlah*hargaburgersapi;
                             grandTotal = grandTotal+total;
-                            System.out.println("Total = "+total);
-                            System.out.println("Grand Total = "+grandTotal);
+                            System.out.println("Total       = Rp."+total);
+                            System.out.println("Grand Total = Rp."+grandTotal);
                             break;
                         case 2:
+                            System.out.println(" ");
                             System.out.println("Burger Patty");
                             System.out.print("Jumlah  = ");
                             jumlah=sc.nextInt();
                             total=jumlah*hargaburgerpatty;
                             grandTotal = grandTotal+total;
-                            System.out.println("Total = "+total);
-                            System.out.println("Grand Total = "+grandTotal);
+                            System.out.println("Total       = Rp."+total);
+                            System.out.println("Grand Total = Rp."+grandTotal);
                             break;
                         case 3:
+                            System.out.println(" ");
                             System.out.println("Burger Ayam");
                             System.out.print("Jumlah  = ");
                             jumlah=sc.nextInt();
                             total=jumlah*hargaburgerayam;
                             grandTotal = grandTotal+total;
-                            System.out.println("Total = "+total);
-                            System.out.println("Grand Total = "+grandTotal);
+                            System.out.println("Total       = Rp."+total);
+                            System.out.println("Grand Total = Rp."+grandTotal);
                             break;
                         case 4:
+                            System.out.println(" ");
                             System.out.println("Kembali");
+                            System.out.println("\n-----------------------------");
                             break;
                         default:
                             System.out.println("Pilihan Tidak Tersedia!");         
@@ -130,64 +145,72 @@ public class FinalProjcetETS {
                     break;    
                     case 3:
                         do{
-                        System.out.println("\nCREPES");
-                        System.out.println("1. Crepes Coklat   [" +hargacrepescoklat + "]");
-                        System.out.println("2. Crepes Keju Coklat [" +hargacrepeskejucoklat + "]");
-                        System.out.println("3. Crepes Tiramisu   [" +hargacrepestiramisu + "]");
-                        System.out.println("4. Crepes Matcha [" +hargacrepesmatcha + "]");
-                        System.out.println("5. Crepes Special [" +hargacrepesspecial + "]");
+                        System.out.println("\n----CREPES----");
+                        System.out.println(" ");
+                        System.out.println("1. Crepes Coklat      [Rp." +hargacrepescoklat + "]");
+                        System.out.println("2. Crepes Keju Coklat [Rp." +hargacrepeskejucoklat + "]");
+                        System.out.println("3. Crepes Tiramisu    [Rp." +hargacrepestiramisu + "]");
+                        System.out.println("4. Crepes Matcha      [Rp." +hargacrepesmatcha + "]");
+                        System.out.println("5. Crepes Special     [Rp." +hargacrepesspecial + "]");
                         System.out.println("6. Selesai");
+                        System.out.println(" ");
                         System.out.print("Pilih Toping = ");
                         pilih2=sc.nextInt();
-                        System.out.println("\n-----------------------------");
                         switch(pilih2){
                         case 1:
+                            System.out.println(" ");
                             System.out.println("Crepes Coklat");
                             System.out.print("Jumlah  = ");
                             jumlah=sc.nextInt();
                             total=jumlah*hargacrepescoklat;
                             grandTotal = grandTotal+total;
-                            System.out.println("Total = "+total);
-                            System.out.println("Grand Total = "+grandTotal);
+                            System.out.println("Total       = Rp."+total);
+                            System.out.println("Grand Total = Rp."+grandTotal);
                             break;
                         case 2:
+                            System.out.println(" ");
                             System.out.println("Crepes Keju Coklat");
                             System.out.print("Jumlah  = ");
                             jumlah=sc.nextInt();
                             total=jumlah*hargacrepeskejucoklat;
                             grandTotal = grandTotal+total;
-                            System.out.println("Total = "+total);
-                            System.out.println("Grand Total = "+grandTotal);
+                            System.out.println("Total       = Rp."+total);
+                            System.out.println("Grand Total = Rp."+grandTotal);
                             break;
                         case 3:
+                            System.out.println(" ");
                             System.out.println("Crepes Tiramisu");
                             System.out.print("Jumlah  = ");
                             jumlah=sc.nextInt();
                             total=jumlah*hargacrepestiramisu;
                             grandTotal = grandTotal+total;
-                            System.out.println("Total       = "+total);
-                            System.out.println("Grand Total = "+grandTotal);
+                            System.out.println("Total       = Rp."+total);
+                            System.out.println("Grand Total = Rp."+grandTotal);
                             break;
                         case 4:
+                            System.out.println(" ");
                             System.out.println("Crepes Matcha");
                             System.out.print("Jumlah  = ");
                             jumlah=sc.nextInt();
                             total=jumlah*hargacrepesmatcha;
                             grandTotal = grandTotal+total;
-                            System.out.println("Total       = "+total);
-                            System.out.println("Grand Total = "+grandTotal);
+                            System.out.println("Total       = Rp."+total);
+                            System.out.println("Grand Total = Rp."+grandTotal);
                             break;
                         case 5:
+                            System.out.println(" ");
                             System.out.println("Crepes Special");
                             System.out.print("Jumlah  = ");
                             jumlah=sc.nextInt();
                             total=jumlah*hargacrepesspecial;
                             grandTotal = grandTotal+total;
-                            System.out.println("Total       = "+total);
-                            System.out.println("Grand Total = "+grandTotal);
+                            System.out.println("Total       = Rp."+total);
+                            System.out.println("Grand Total = Rp."+grandTotal);
                             break;
                         case 6 :
+                            System.out.println(" ");
                             System.out.println("Kembali");
+                            System.out.println("\n-----------------------------");
                             break;
                         default:
                             System.out.println("Pilihan Tidak Tersedia!");         
@@ -201,12 +224,14 @@ public class FinalProjcetETS {
                 case 2:
                     do{
                         System.out.println("\nMenu Admin");
-                        System.out.println("1.  Ubah Harga Kebab Mini\n2. Ubah Harga Kebab Sedang\n3. Ubah Harga Kebab Jumbo ");
-                        System.out.println("4.  Ubah Harga Burger Sapi\n5. Ubah Harga Burger Patty\n6. Ubah Harga Burger Ayam");
-                        System.out.println("7.  Ubah Harga Crepes Coklat\n8. Ubah Harga Crepes Keju Coklat\n9. Ubah Harga Crepes Tiramisu ");
-                        System.out.println("10. Ubah Harga Crepes Matcha\n11. Ubah Harga Crepes Special\n12. Selesai");
-                        System.out.print("Pilih = "); pilih3=sc.nextInt();
-                        System.out.println("\n-----------------------------");
+                        System.out.println(" ");
+                        System.out.println("1.  Ubah Harga Kebab Mini\n2.  Ubah Harga Kebab Sedang\n3. Ubah Harga Kebab Jumbo ");
+                        System.out.println("4.  Ubah Harga Burger Sapi\n5.  Ubah4 Harga Burger Patty\n6. Ubah Harga Burger Ayam");
+                        System.out.println("7.  Ubah Harga Crepes Coklat\n8.  Ubah Harga Crepes Keju Coklat\n9. Ubah Harga Crepes Tiramisu ");
+                        System.out.println("10. Ubah Harga Crepes Matcha\n11.  Ubah Harga Crepes Special\n12. Selesai");
+                        System.out.println(" ");
+                        System.out.print("Pilih = "); 
+                        pilih3=sc.nextInt();
                         switch(pilih3){
                             case 1:
                                 System.out.println("Mengubah Harga Kebab Mini");
@@ -286,23 +311,29 @@ public class FinalProjcetETS {
                                 System.out.println("Harga telah diubah");
                                 break;
                             case 12:
+                                System.out.println(" ");
                                 System.out.println("Kembali");
+                                System.out.println("\n-----------------------------");
+                                System.out.println(" ");
                                 break;
                             default:
-                                System.out.println("Pilihan Salah");
+                                System.out.println("Pilihan Tidak Tersedia");
                                 
                         }
                     }while(pilih3!=12);
                     break;
                 case 3:
+                    System.out.println(" ");
                     System.out.println("Menu Owner");
-                    System.out.println("Total semua pemasukan " +grandTotal);
+                    System.out.println("Total Semua Pemasukan Rp." +grandTotal);
                     System.out.println("\n-----------------------------");
+                    System.out.println(" ");
                  
                     
                     
             }
         }while(menuUtama!=4);
+        System.out.println(" ");
         System.out.println("Terima Kasih Selamat Datang kembali");
     }
     
